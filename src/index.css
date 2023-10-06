@@ -24,6 +24,19 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/** Logo */
+.melodia-logo {
+    display: flex;
+    align-items: center; /* Vertically center align the logo and h1 */
+}
+
+.logo-img img {
+    max-height: 10%; /* Ensure the image height doesn't exceed its container */
+    width: auto; /* Allow the image to scale proportionally */
+    margin-right: 10px; /* Add space between the logo and h1 */
+}
+
 /* Header */
 header {
     background-color: #627b8b;
@@ -51,6 +64,7 @@ header #branding {
 }
 
 header #branding h1{
+    font-size: 2rem;
     margin: 0;
 }
 
