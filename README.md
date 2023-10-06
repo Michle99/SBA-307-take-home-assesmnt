@@ -6,9 +6,12 @@
 - About Page
 - Contact Page
 
-# 
+# Pre-requisites
+- Fundamental Understanding of HTML
+- Fundamental Understanding of CSS
 
 # Getting Started
-Clone the repo to check out the directories.
+Clone the repository to get started.
+
 
 
