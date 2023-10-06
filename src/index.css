@@ -12,7 +12,7 @@ body {
     overflow: hidden;
 }
 
-ul {
+ul { /** Simple selector */
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ ul {
     align-items: center; /* Vertically center align the logo and h1 */
 }
 
-.logo-img img {
+.logo-img img { /*** Descendant selector */
     max-height: 10%; /* Ensure the image height doesn't exceed its container */
     width: auto; /* Allow the image to scale proportionally */
     margin-right: 10px; /* Add space between the logo and h1 */
@@ -73,7 +73,7 @@ header nav {
     margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight, header .current a { /** Multiple Selectors */
     color:#e8991d;
     font-weight: bold;
 }
@@ -100,6 +100,24 @@ header a:hover {
 }
 #showcase p {
     font-size: 20px;
+}
+
+/*  Media Queries for showcase and braning h1 */
+@media screen and (max-width: 768px) {
+    /* Style for smaller screens */
+    .container {
+        /* align-items: center; */
+    }
+
+    #branding h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #showcase h1 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
 }
 
 /** Newsletter */
