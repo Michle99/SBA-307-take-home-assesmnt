@@ -85,7 +85,6 @@ header a:hover {
 }
 
 /** Showcase */
-
 #showcase {
     min-height: 400px;
     background: url(/images/fresh-cocktails.avif) no-repeat 0 -100px;
@@ -117,7 +116,7 @@ header a:hover {
     float: right;
     margin-top: 15px;
 }
-#newsletter input[type="email"] {
+#newsletter input[type="email"] { /** Attribute selector */
     padding:  5px;
     height: 25px;
     width: 250px;
